@@ -1,0 +1,15 @@
+<h1>Greeting learning spring boot 4 fans!</h1>
+
+<p> In this chapter we are learning how to build a web app using spring boot 4!</p>
+
+<ul>
+    {{#videos}}
+        <li>{{name}}</li>
+    {{/videos}}
+</ul>
+
+
+<form action="/new-video" method="post">
+    <input type="text" name="name">
+    <button type="submit">Submit</button>
+</form>
